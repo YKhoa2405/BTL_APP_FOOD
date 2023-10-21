@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="5dp"
+    app:cardCornerRadius="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgSanPhamGioHang"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/banhtrungthu" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:paddingTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtTitleGioHang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bánh trung thu"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtGiaGioHang"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:text="0 K VND"
+                    android:textColor="#c0c0c0"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imgCong"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/plus" />
+
+                    <TextView
+                        android:id="@+id/txtSoLuongSanPham"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        android:paddingHorizontal="10dp"
+                        android:text="0" />
+
+                    <ImageView
+                        android:id="@+id/imgTru"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/minus" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txtTongGiaGioHang"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="end"
+                    android:paddingTop="4dp"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:text="0.0 K VND" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

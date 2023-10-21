@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">DuAn_007</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string-array name="searchMonAn">
+        <item>Thịt bò</item>
+        <item>Gạo</item>
+        <item>Thịt heo</item>
+        <item>Thịt gà</item>
+        <item>Thịt vịt</item>
+        <item>Rau</item>
+        <item>Cà rốt</item>
+        <item>Cà tím</item>
+        <item>Cà pháo</item>
+        <item>Khoai tây</item>
+        <item>Khoai lang</item>
+        <item>Cá diêu hồng</item>
+        <item>Cá mú</item>
+        <item>Cá hồi</item>
+        <item>Cá basa</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
